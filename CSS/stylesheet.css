@@ -33,6 +33,9 @@ h2{
     min-height: 797px;
     margin: auto;
 }
+.p-3{
+    padding: 5px  !important;
+}
 /* Images */
 
 /* img{ */
