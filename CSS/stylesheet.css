@@ -35,9 +35,9 @@ h2{
 }
 /* Images */
 
-img{
-    display: inline-block;
-    margin: 45px ;
+/* img{ */
+    /* display: inline-block; */
+    /* margin: 45px ; */
 }
 #freddie{
     margin-top: 100px;
@@ -73,13 +73,4 @@ img{
     font-size: 30px;
     margin-top: 20px;
     
-}
-.p-3{
-    background-color: brown;
-}
-.col-3{
-    background-color: coral;
-}
-.col-6{
-    background-color: darkblue;
 }
