@@ -71,13 +71,13 @@ margin-top: 10px;
     padding: 5px 20px;
     color: white;
     font-size: 30px;
-    box-shadow:  0 6px 20px 0 rgba(0,0,0,0.9);
+    filter: drop-shadow(2px 4px 4px rgba(45, 98, 2, 0.8));
     margin-top: 10px;
 }
 .primary{
     background-color:rgb(82, 163, 17);
     border: none;
-    box-shadow:  0 6px 20px 0 rgba(0,0,0,0.9);
+    filter: drop-shadow(2px 4px 4px rgba(45, 98, 2, 0.8));
     border-radius: 20px;
     padding: 14px 100px;
     color: white;
