@@ -1,0 +1,67 @@
+body{
+    width:80 vw;
+}
+.image-container {
+    position: relative;
+    display: inline-block; 
+    width: 1370px;
+    height: 1024px;
+}
+
+.image-background{
+    position:relative;
+    top:0;
+    left:0;
+}
+.image-overlay {
+    position:absolute;
+    background-repeat: no-repeat;
+    width: 988px;
+    height: 684px;
+    left: 200px;
+    top: 118px;
+}
+
+.row{
+    display:inline-block;
+    position:relative;
+    right: 1370px;
+    top: 130px;
+    
+}
+
+ #btnSticker {
+    position:absolute;
+    width: 245px;
+    height: 63px;
+    left: 279px;
+    /* top: 683px; */
+    color: #00AEEF;
+    /* background-color: black; */
+    border-radius: 10px ;
+    border:3px solid #00AEEF;
+  }
+
+  #btnResults{
+      position: absolute;
+      width: 245px;
+      height: 63px;
+      left: 572px;
+      /* top: 683.14px; */
+      color:white;
+      background-color:#52B700 ;
+      box-shadow: 2px 4px 4px 0px #2D6202CC;
+      border-radius: 10px;
+  }
+
+  #btnPractice{
+    position: absolute;
+    width: 245px;
+    height: 63px;
+    left: 865px;
+    /* top: 682px; */
+    color: white;
+    background-color:#00AEEF;
+    box-shadow: 2px 4px 4px 0px #015170;
+    border-radius: 10px;
+  }
