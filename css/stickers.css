@@ -35,7 +35,7 @@
     display: inline-block;
     position: absolute;
     
-    margin-top: 10%;
+    margin-top: 5%;
     /*margin-top: 10%;
     margin-left: 15%;*/
     /*transform: translate(10%,15%);*/
@@ -79,7 +79,6 @@
     right: 4em;
     filter: drop-shadow(2px 4px 4px #015170);
 }
-
 
 
 /*.card {
