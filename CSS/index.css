@@ -1,43 +1,65 @@
 body{
-    width:80 vw;
-}
-.image-container {
-    position: relative;
-    display: inline-block; 
-    width: 1370px;
-    height: 1024px;
+    font-family: 'Roboto Slab';
+    font-size: 30px;
 }
 
+.image-container {
+    /* position: relative;
+    display: inline-block; 
+    width: 1370px;
+    height: 1024px; */
+    position: relative;
+    top: 0;
+    left: 0;
+    background-image: url(../Images/JPG/Background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+/* 
 .image-background{
     position:relative;
     top:0;
     left:0;
-}
+} */
 .image-overlay {
-    position:absolute;
+    /* position:absolute;
     background-repeat: no-repeat;
     width: 988px;
     height: 684px;
     left: 200px;
     top: 118px;
+} */
+display: inline-block;
+    position: absolute;
+    /* margin-top: 5%; */
 }
 
-.row{
-    display:inline-block;
+ 
+ .row{
+    display:flex; 
     position:relative;
-    right: 1370px;
-    top: 130px;
+    right: 680px;
+    top: 200px;
+    background-color: red;
+    align-items: flex-end;
+    justify-items:center;
+    border: 2px solid black;
     
-}
+} 
 
  #btnSticker {
     position:absolute;
     width: 245px;
     height: 63px;
     left: 279px;
-    /* top: 683px; */
     color: #00AEEF;
-    /* background-color: black; */
     border-radius: 10px ;
     border:3px solid #00AEEF;
   }
@@ -47,7 +69,6 @@ body{
       width: 245px;
       height: 63px;
       left: 572px;
-      /* top: 683.14px; */
       color:white;
       background-color:#52B700 ;
       box-shadow: 2px 4px 4px 0px #2D6202CC;
@@ -59,9 +80,16 @@ body{
     width: 245px;
     height: 63px;
     left: 865px;
-    /* top: 682px; */
     color: white;
     background-color:#00AEEF;
     box-shadow: 2px 4px 4px 0px #015170;
     border-radius: 10px;
-  }
+  } 
+
+  .home-img {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    padding-bottom: 100px;
+    z-index: 2;
+}
