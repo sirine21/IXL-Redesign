@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto Slab';
     font-size: 30px;
+    margin:0%;
 }
 
 .image-container {
@@ -20,7 +21,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    
 }
 /* 
 .image-background{
@@ -34,10 +35,11 @@ body{
     width: 988px;
     height: 684px;
     left: 200px;
-    top: 118px;
-} */
-display: inline-block;
+    top: 118px;*/
+
+    display: inline-block;
     position: absolute;
+    border-radius: 10px;
     /* margin-top: 5%; */
 }
 
@@ -50,7 +52,6 @@ display: inline-block;
     background-color: red;
     align-items: flex-end;
     justify-items:center;
-    border: 2px solid black;
     
 } 
 
