@@ -1,0 +1,12 @@
+.overlayCloseBtn {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.overlayBottomCenterBtn {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
