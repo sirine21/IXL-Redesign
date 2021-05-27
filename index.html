@@ -7,7 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>IXL Redesign</title>
         <style>
-            body {background-image:url("Images/Megagroup-Online Learning for Kids/Background.jpg");}
+            body {background-image:url("Images/Megagroup-Online Learning for Kids/Background.jpg");
+          background-repeat: no-repeat;}
         </style>
         <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
         <link rel="stylesheet" href="CSS\stylesheet.css">
@@ -32,10 +33,10 @@
                  <button type="button" class="secondary" data-toggle="modal" data-target="#helpOverlay">Need Help?</button>
                 
                  <!--OVERLAY START-->
-                 <div class="modal fade bd-example-modal-lg" id="helpOverlay" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                   <div class="modal-dialog modal-dialog-centered modal-lg">
+                 <div class="modal fade bd-example-modal-md" id="helpOverlay" tabindex="-1" role="dialog" aria-labelledby="myMediumModalLabel" aria-hidden="true">
+                   <div class="modal-dialog modal-dialog-centered modal-md">
                      <div class="modal-content">
-                         <img src="Images/Megagroup-Online Learning for Kids/Help-Screen-Overlay-coding.jpg">
+                         <img id="helpImg" src="Images/Megagroup-Online Learning for Kids/Help-Screen-Overlay-coding.jpg">
                          
                              <div class="overlayBottomCenterBtn"><button type="button" class="primary" data-dismiss="modal">Back to Question</button></div>
                          
