@@ -36,7 +36,7 @@
 .stickers-card-overlay {
     display: inline-block;
     position: absolute;    
-    margin-top: 5%;
+    /*margin-top: 5%;*/
     max-height: 600px;
     /*margin-top: 10%;
     margin-left: 15%;*/
