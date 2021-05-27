@@ -37,7 +37,7 @@
     display: inline-block;
     position: absolute;    
     margin-top: 5%;
-    max-height: 797px;
+    max-height: 600px;
     /*margin-top: 10%;
     margin-left: 15%;*/
     /*transform: translate(10%,15%);*/
@@ -52,7 +52,7 @@
 .stickers-img {
     border-radius: 10px;
     z-index: 4;
-    max-height: 797px;    
+    max-height: 600px;    
 }
 
 .btn {
