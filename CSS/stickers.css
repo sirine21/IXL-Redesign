@@ -1,11 +1,19 @@
+body {
+    background-image: url(../Images/JPG/Background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    margin: 0px;
+}
+
 .card {
     position: relative;
     top: 0;
     left: 0;
-    background-image: url(../Images/JPG/Background.jpg);
+    /*background-image: url(../Images/JPG/Background.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -14,6 +22,7 @@
     justify-content: center;
     align-items: center;
 }
+
 
 /*.trees {
     height: 100%;
@@ -27,7 +36,7 @@
 
 .home-img {
     position: absolute;
-    top: 32px;
+    top: 2%;
     right: 32px;
     padding-bottom: 100px;
     z-index: 2;
@@ -36,7 +45,8 @@
 .stickers-card-overlay {
     display: inline-block;
     position: absolute;    
-    margin-top: 5%;
+    /*margin-top: 5%;*/
+    max-height: 600px;
     /*margin-top: 10%;
     margin-left: 15%;*/
     /*transform: translate(10%,15%);*/
@@ -51,7 +61,7 @@
 .stickers-img {
     border-radius: 10px;
     z-index: 4;
-        
+    max-height: 600px;    
 }
 
 .btn {
@@ -62,7 +72,7 @@
     font-size: 30px;
     z-index: 5;
     position: absolute;
-    bottom: 2em;
+    bottom: 1em;
     border: none;
     
 }

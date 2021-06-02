@@ -1,3 +1,16 @@
+#helpOverlay {
+  height: 100%;
+  width: 100%;
+}
+
+#helpImg {
+  
+  align-items: center;
+}
+
+
+
+
 .overlayCloseBtn {
   position: absolute;
   top: 1em;
@@ -9,4 +22,8 @@
   top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.overlayBottomCenterBtn .primary {
+  padding: 20px ;
 }
