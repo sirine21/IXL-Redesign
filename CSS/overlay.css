@@ -4,12 +4,15 @@
 }
 
 #helpImg {
-  
+  width: 100%;
   align-items: center;
 }
 
 
 
+.modal-content {
+  width: 100%;
+}
 
 .overlayCloseBtn {
   position: absolute;
