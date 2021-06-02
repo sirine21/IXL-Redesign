@@ -1,0 +1,93 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IXL Redesign</title>
+        <style>
+            body {background-image:url("Images/Megagroup-Online Learning for Kids/Background.jpg");}
+        </style>
+        <link rel="stylesheet" href="CSS/stylesheet.css">
+        <link rel="stylesheet" href="CSS\overlay.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container px-2">
+            <div class="row gx-2">
+               <!-- First column -->
+              <div class="col-3 ">
+                  <div class="p-3 ">
+                 <div class="content">
+                    <h1>Lilly<br>Learner<br></h1>
+                 <div id="lili"><img src="Images/Megagroup-Online Learning for Kids/Lily-Learner.jpg"></div>
+                 <div id="score"><img src="Images/IXL-Online Learning for Kids (1)/Score-3-stars.png"></div>
+                 <div id="freddie"><img src="Images/IXL-Online Learning for Kids (1)/Freddie.png"></div>
+                  
+                 <!--OVERLAY BUTTON do not mess with data toggle/target it will break!!-->
+                  <button type="button" class="secondary" data-toggle="modal" data-target="#helpOverlay">Need Help?</button>
+                
+                  <!--OVERLAY START-->
+                  <div class="modal fade bd-example-modal-lg" id="helpOverlay" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                      <div class="modal-content">
+                          <img src="Images/Megagroup-Online Learning for Kids/Help-Screen-Overlay-coding.jpg">
+                          
+                              <div class="overlayBottomCenterBtn"><button type="button" class="primary" data-dismiss="modal">Back to Question</button></div>
+                          
+                      </div>
+                    </div>
+                  </div>
+                 <!--OVERLAY END-->
+                 
+                </div>
+              </div>
+                  </div>
+
+               <!--Second Column  -->
+               <div class="col-6 ">
+                  <div class="p-3">
+                <div class="centerContent">
+                      <h1> Lesson 1</h1>
+                    <h2>Subtract</h2>
+                    <div class="question"><img src="Images/Question_4_try1.png"></div>
+                    
+                  
+                    <!--OVERLAY BUTTON do not mess with data toggle/target it will break!!-->
+                  <button type="button" class="primary" data-toggle="modal" data-target="#submitOverlay">Enter</button>
+                 
+                  <!--OVERLAY START-->
+                    <div class="modal fade bd-example-modal-lg" id="submitOverlay" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            
+                            <img src="Images\Megagroup-Online Learning for Kids\Wrong-Answer-It's-Okay-Coding.jpg">
+                            <div class="overlayBottomCenterBtn">
+                                <a href="Done.html"><button type="button" class="primary">Continue</button></a>
+                            </div>
+                    
+                        </div>
+                      </div>
+                    </div>
+                  <!--OVERLAY END-->
+                  
+                    <div id="keypad"><img src="Images/IXL-Online Learning for Kids (1)/Number_Pad.png"></div></div></div>
+                    </div>
+                <!-- Third column -->
+              <div class="col-3 ">
+                  <div class="p-3 ">
+               <div class="content">
+                      <h1 class="Progress">Progress</h1>
+                    <div id="bar"><img src="Images/IXL-Online Learning for Kids (1)/Progress-question-2.png"></div></div></div>
+                 </div>
+            </div>
+          </div>
+          
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      </body>
+    </html>
